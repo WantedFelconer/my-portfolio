@@ -1,14 +1,295 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="Stylesheet" href="style.css">
-</head>
-<body class="body">
-    <h1 class="name">Abdullah Al Noman</h1>
-    <img src="images/my_photo.jpg" alt="My Photo" class="my-photo">
-    <p class="bio">I am just a passionate web developer.</p>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Personal Portfolio Website" />
+    <meta
+      name="keywords"
+      content="Portfolio, BRAC University, Computer Science"
+    />
+    <meta name="author" content="Wanted Felconer" />
+
+    <title>Wanted Felconer | Portfolio</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <style>
+      .highlight {
+        color: #4f9cff;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- ================= NAVBAR ================= -->
+
+    <header>
+      <nav>
+        <h2>Wanted<span class="highlight">Felconer</span></h2>
+
+        <ul>
+          <li><a href="#hero">Home</a></li>
+
+          <li><a href="#about">About</a></li>
+
+          <li><a href="#education">Education</a></li>
+
+          <li><a href="#skills">Skills</a></li>
+
+          <li><a href="#projects">Projects</a></li>
+
+          <li><a href="#movies">Movies</a></li>
+
+          <li><a href="#contact">Contact</a></li>
+
+          <li><a href="hobbies.html">Hobbies</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- ================= HERO ================= -->
+
+    <section id="hero">
+      <div class="hero-text">
+        <h1>Hello, I'm <span class="highlight">Wanted Felconer</span></h1>
+
+        <h3>Computer Science Student</h3>
+
+        <p>
+          Passionate about Flutter, Artificial Intelligence, Full Stack
+          Development, Automation and Game Development.
+        </p>
+
+        <a href="#projects" class="btn">View Projects</a>
+      </div>
+
+      <div class="hero-image">
+        <img
+          src="images/profile.jpg"
+          alt="My Photo"
+          style="width: 280px; border-radius: 50%"
+        />
+      </div>
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+
+    <section id="about">
+      <h2>About Me</h2>
+
+      <p>
+        Hello! My name is <strong>Wanted Felconer</strong>. I am currently
+        studying Computer Science and Engineering at
+        <a href="https://www.bracu.ac.bd/" target="_blank"> BRAC University </a
+        >.
+      </p>
+
+      <p>
+        My interests include
+        <b>Artificial Intelligence</b>, <i>Flutter Development</i>, Web
+        Development, UI/UX, and Entrepreneurship.
+      </p>
+
+      <blockquote>
+        <em>
+          "The people who are crazy enough to think they can change the world
+          are the ones who do."
+        </em>
+      </blockquote>
+    </section>
+
+    <!-- ================= EDUCATION ================= -->
+
+    <section id="education">
+      <h2>Education</h2>
+
+      <table>
+        <tr>
+          <th>Degree</th>
+
+          <th>Institution</th>
+
+          <th>Duration</th>
+        </tr>
+
+        <tr>
+          <td>BSc in CSE</td>
+
+          <td>BRAC University</td>
+
+          <td>2022-Present</td>
+        </tr>
+
+        <tr>
+          <td rowspan="2">Achievements</td>
+
+          <td colspan="2">
+            Learning Flutter, AI, Software Engineering, and Full Stack
+            Development.
+          </td>
+        </tr>
+
+        <tr>
+          <td colspan="2">
+            Participated in programming contests and personal software projects.
+          </td>
+        </tr>
+      </table>
+    </section>
+
+    <!-- ================= SKILLS ================= -->
+
+    <section id="skills">
+      <h2>Technical Skills</h2>
+
+      <div class="card-container">
+        <div class="card">
+          <h3>Flutter</h3>
+
+          <p>Cross-platform Mobile Development</p>
+        </div>
+
+        <div class="card">
+          <h3>Python</h3>
+
+          <p>Automation & AI</p>
+        </div>
+
+        <div class="card">
+          <h3>Java</h3>
+
+          <p>Data Structures</p>
+        </div>
+
+        <div class="card">
+          <h3>HTML CSS JS</h3>
+
+          <p>Frontend Development</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PROJECTS ================= -->
+
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <div class="project-grid">
+        <div class="project">
+          <h3>Clinic Management System</h3>
+
+          <p>Smart digital platform for private clinics.</p>
+        </div>
+
+        <div class="project">
+          <h3>AI Shorts Generator</h3>
+
+          <p>AI powered YouTube Shorts automation.</p>
+        </div>
+
+        <div class="project">
+          <h3>Personal Portfolio</h3>
+
+          <p>Responsive modern portfolio website.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= MOVIES ================= -->
+
+    <section id="movies">
+      <h2>Top 10 Favorite Movies</h2>
+
+      <ol>
+        <li>Interstellar</li>
+
+        <li>Inception</li>
+
+        <li>Patema Inverted</li>
+
+        <li>The Dark Knight</li>
+
+        <li>Avengers Endgame</li>
+
+        <li>Spirited Away</li>
+
+        <li>Your Name</li>
+
+        <li>Oppenheimer</li>
+
+        <li>The Matrix</li>
+
+        <li>Whiplash</li>
+      </ol>
+    </section>
+
+    <!-- ================= LINKS ================= -->
+
+    <section>
+      <h2>Useful Links</h2>
+
+      <ul>
+        <li>
+          <a href="https://www.bracu.ac.bd/" target="_blank">
+            BRAC University
+          </a>
+        </li>
+
+        <li>
+          <a href="https://discord.gg/" target="_blank"> CSE391 Discord </a>
+        </li>
+
+        <li>
+          <a href="https://github.com/wantedfelconer" target="_blank">
+            GitHub
+          </a>
+        </li>
+
+        <li>
+          <a href="https://linkedin.com/" target="_blank"> LinkedIn </a>
+        </li>
+
+        <li>
+          <a href="https://google.com/" target="_blank"> Google </a>
+        </li>
+      </ul>
+    </section>
+
+    <!-- ================= TWO IMAGES ================= -->
+
+    <section>
+      <h2>Gallery</h2>
+
+      <img src="images/profile.jpg" alt="Local Image" width="250" />
+
+      <img
+        src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=600"
+        alt="Programming"
+        width="350"
+      />
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+
+    <section id="contact">
+      <h2>Contact</h2>
+
+      <p>Email : wanted@example.com</p>
+
+      <p>Phone : +8801XXXXXXXXX</p>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+      <p id="location"></p>
+
+      <p id="modified"></p>
+
+      <p>© 2026 Wanted Felconer</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
 </html>
