@@ -1,7 +1,3 @@
-/* ==========================================
-        PAGE LOCATION
-========================================== */
-
 const locationElement = document.getElementById("location");
 
 if (locationElement) {
@@ -9,20 +5,12 @@ if (locationElement) {
     "<strong>Current Page:</strong> " + window.location.href;
 }
 
-/* ==========================================
-        LAST MODIFIED DATE
-========================================== */
-
 const modifiedElement = document.getElementById("modified");
 
 if (modifiedElement) {
   modifiedElement.innerHTML =
     "<strong>Last Modified:</strong> " + document.lastModified;
 }
-
-/* ==========================================
-        DARK MODE TOGGLE
-========================================== */
 
 const toggleButton = document.createElement("button");
 
@@ -70,10 +58,6 @@ toggleButton.addEventListener("click", () => {
   }
 });
 
-/* ==========================================
-        BACK TO TOP BUTTON
-========================================== */
-
 const topButton = document.createElement("button");
 
 topButton.innerHTML = "↑";
@@ -113,10 +97,6 @@ topButton.addEventListener("click", () => {
   });
 });
 
-/* ==========================================
-        SCROLL PROGRESS BAR
-========================================== */
-
 const progressBar = document.createElement("div");
 
 progressBar.id = "progressBar";
@@ -141,10 +121,6 @@ window.addEventListener("scroll", () => {
 
   progressBar.style.width = progress + "%";
 });
-
-/* ==========================================
-        SCROLL REVEAL ANIMATION
-========================================== */
 
 const revealElements = document.querySelectorAll("section");
 
@@ -174,10 +150,6 @@ window.addEventListener("scroll", reveal);
 
 reveal();
 
-/* ==========================================
-        HERO TYPING EFFECT
-========================================== */
-
 const heroHeading = document.querySelector("#hero h3");
 
 const words = [
@@ -203,10 +175,6 @@ function changeText() {
 }
 
 setInterval(changeText, 2500);
-
-/* ==========================================
-        NAVBAR ACTIVE LINK
-========================================== */
 
 const navLinks = document.querySelectorAll("nav a");
 
