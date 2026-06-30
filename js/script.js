@@ -1,10 +1,3 @@
-const locationElement = document.getElementById("location");
-
-if (locationElement) {
-  locationElement.innerHTML =
-    "<strong>Current Page:</strong> " + window.location.href;
-}
-
 const modifiedElement = document.getElementById("modified");
 
 if (modifiedElement) {
